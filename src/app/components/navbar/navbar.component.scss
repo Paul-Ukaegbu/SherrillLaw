@@ -1,0 +1,29 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 192, 203, 0.805);
+    backdrop-filter: blur(50px);
+    padding: 1.5%;
+    margin: 2% 5%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 100px 4px #bcbcbc;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    margin-left: 50px;
+    font-weight: 1;
+    color: rgba(148, 14, 14, 0.539);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}

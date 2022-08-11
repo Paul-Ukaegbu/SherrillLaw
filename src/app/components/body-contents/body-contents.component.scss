@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    margin-top: 15%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    margin:20% 5% 0 5%;
+    border: none;
+    box-shadow: 5px 5px 100px 4px #bcbcbc;
+    text-align: center;
+    .butttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button{
+        padding: 5%;
+        border: none;
+    }
+}
+
+button:hover {
+    box-shadow: 10px 10px 100px 10px pink;
+}
+
+.trustedAttorney{
+    border: 2px solid pink;
+    padding: 10px;
+}
